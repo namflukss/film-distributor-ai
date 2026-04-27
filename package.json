@@ -1,0 +1,11 @@
+{
+  "name": "film-festival-ai",
+  "version": "1.0.0",
+  "description": "Film Festival Strategy AI Assistant",
+  "scripts": {
+    "build": "npm install --prefix client && npm run build --prefix client && npm install --prefix server",
+    "start": "node server/index.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev"
+  }
+}
